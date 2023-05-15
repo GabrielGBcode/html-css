@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /* 
+        Medidas Absolutas
+        cm, mm, in (POLEGADA), px, pt, pc
+        
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        
+        
+        Geralmente 16px = 1em
+        */
+        font-size: 1em;
+        font-weight: normal;
+        /* lighter, normal, bold, bolder */
+        font-style: normal;
+        /* italic, normal, oblique,  */
+        text-decoration: none;
+        /* underline, overline, line-through, dotted, dashed, none */
+      }
+
+      h1 {
+        /* font-family: "Work Sans", sans-serif;
+        font-weight: bolder;
+        font-size: 3em;
+        font-style: italic; */
+
+        /*
+        shorthand font 
+        - font-style -> font-weight -> font-size -> font-family
+        */
+        font: italic bolder 3em "Work Sans", sans-serif;
+      }
+
+      h2 {
+        font: bold 2em "Work Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed reiciendis
+      quia ullam culpa ex, architecto error rerum cupiditate explicabo corporis
+      eligendi tenetur illum adipisci quo blanditiis itaque id saepe
+      consequuntur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Eos, eaque? Voluptate at sint neque autem, voluptas facilis corrupti
+      ullam, eum, dignissimos perspiciatis reiciendis molestias. Asperiores
+      labore consequuntur temporibus eveniet consectetur.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, esse
+      dicta voluptatem soluta dolorem excepturi beatae sequi aperiam et, nam
+      suscipit voluptates culpa, vitae eaque nesciunt praesentium quidem
+      tenetur. Modi.
+    </p>
+    <h2>Sutítulo do exercício</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id
+      ratione, neque quo perspiciatis voluptates, a excepturi pariatur autem
+      quas consequatur distinctio soluta sapiente quasi eos animi? Aspernatur,
+      ex at.
+    </p>
+  </body>
+</html>

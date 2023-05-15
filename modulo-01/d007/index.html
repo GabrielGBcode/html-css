@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Imagem Flexível</title>
+  </head>
+  <body>
+    <h1>Imagem Flexível</h1>
+    <p>
+      Você está vendo a imagem completa? Experimente ampliar o tamanho da sua
+      janela para aproveitar a melhor experiência. &#x1F92F;
+    </p>
+    <picture>
+      <source
+        media="(min-width: 1250px)"
+        srcset="imagens/paisagem-g.png"
+        type="image/png"
+      />
+      <source
+        media="(min-width: 800px)"
+        srcset="imagens/paisagem-m.png"
+        type="image/png"
+      />
+      <img src="imagens/paisagem-p.png" alt="Imagem Flexível" />
+    </picture>
+    <div><dfn>Imagem definindo o min-width</dfn></div>
+    <hr />
+    <picture>
+      <source
+        media="(max-width: 800px)"
+        srcset="imagens/paisagem-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1250px)"
+        srcset="imagens/paisagem-m.png"
+        type="image/png"
+      />
+      <img src="imagens/paisagem-g.png" alt="Imagem Flexível" />
+    </picture>
+    <div><dfn>Imagem definindo o max-width</dfn></div>
+  </body>
+</html>
