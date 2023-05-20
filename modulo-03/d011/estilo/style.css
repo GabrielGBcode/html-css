@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+  font-family: "Sriracha", cursive;
+  height: 100vh;
+}
+
+header {
+  background-color: black;
+  min-height: 150px;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+  color: #ffffff;
+}
+
+header > h1 {
+  font-family: "Passion One";
+  font-size: 4em;
+}
+
+header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  padding: 2em 0em 3em 0em;
+}
+
+header > p > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header > p > a:hover {
+  text-decoration: underline;
+  color: #7a7aff;
+}
+
+main > div.imgfundo01 > p,
+main div.imgfundo02 > p {
+  background-color: #0000007a;
+  color: #ffffff;
+  max-width: 13em;
+  min-height: 300px;
+  padding: 30px 0px 30px 20px;
+  margin-left: 1.5em;
+  font-size: 1.5em;
+  min-height: auto;
+}
+
+.poema {
+  padding-bottom: 2em;
+}
+
+.paragrafo {
+  background-color: #ffffff;
+  padding: 20px 0px 0px 3.2em;
+  box-shadow: 10px 10px 2px black;
+}
+
+.paragrafo > p {
+  font-size: 1.5em;
+  max-width: 400px;
+  min-height: auto;
+}
+
+.imgfundo01 {
+  background-image: url(../imagens/background001.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.imgfundo02 {
+  background-image: url(../imagens/background002.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer > p > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer > p > a:hover {
+  text-decoration: underline;
+  color: #7a7aff;
+}
