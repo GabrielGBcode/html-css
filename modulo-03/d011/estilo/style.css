@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
-body {
+div#espaco {
   background-image: url("../imagens/espaco.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -11,9 +13,9 @@ body {
   background-size: cover;
 }
 
-img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+div#astronauta {
+  background-image: url("../imagens/astronauta.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
